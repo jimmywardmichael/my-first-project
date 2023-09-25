@@ -1,4 +1,4 @@
-function addShipping(price: number, shipping: number){
-    console.log(price + shipping);
+function addShipping(price: number, shipping: number) : number {
+    return price + shipping;
 }
 addShipping(10 , 5);
